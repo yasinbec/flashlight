@@ -3,6 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Flashlight</title>
+
 </head>
 
 <body>
@@ -10,17 +11,26 @@
 
 <h1>FlashLight</h1>
 
-<img id="flashlight" class="flashlight" src="img.jpg"/>
+<a href="img3.jpg" id="flashlight" ><img src="img.jpg" width="300" title="Test Image" /></a>
 
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="flashlight.js"></script>
+
+<link rel="stylesheet" type="text/css" href="flashlight.css" />
+
 <script>
 $(document).ready(function(){
 
-		$('#flashlight').flashlight();
+	$('#flashlight').flashlight({
+
+		bg: '#FFF',
+		opacity: 0.6
 
 	});
+
+});
 </script>
 </body>
 </html>
