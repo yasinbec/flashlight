@@ -35,7 +35,7 @@
                     $('.flashlight_overlay').show();       
                     $('.flashlight_content').show();
                     $('.flashlight_content').animate({'top':'45%'},200);
-                    $('.flashlight').replaceWith( "" + $('.flashlight').html() + "<div href='#' id='flashlight_close' class='flashlight_close'>close</div><div class='flashlight_title'>" + title + "</div>" );
+                    $('.flashlight').replaceWith( "" + $('.flashlight').html() + "<div id='flashlight_close' class='flashlight_close'>close</div><div class='flashlight_title'>" + title + "</div>" );
             });
  
  
