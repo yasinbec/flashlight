@@ -1,7 +1,16 @@
 flashlight
 ==========
 
-jquery lightbox test
+jquery lightbox
+Only 1.41 kb
 
- - havent done yet, but It will work soon...
- - Close button is not working
+Simpliest Jquery Lightbox Alternatif.
+
+<script>
+$(document).ready(function(){
+	$('.light').flashlight({
+		bg: '#FFF', // I will add this option later
+		opacity: 0.6 // I will add this option later
+	});
+});
+</script>
