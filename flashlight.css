@@ -52,3 +52,19 @@
 .flashlight:hover {
     opacity: 1;
 }
+/* You can add your own responsive settings below ----------- */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+.flashlight_content { width: 95%;}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+.flashlight_content { width: auto;}
+}
