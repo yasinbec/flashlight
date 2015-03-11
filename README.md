@@ -2,7 +2,7 @@ flashlight
 ==========
 
 jquery lightbox
-Only 1.41 kb
+Only 1.435 kb
 
 Simpliest Jquery Lightbox Alternatif.
 ---
