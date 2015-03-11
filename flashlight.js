@@ -12,7 +12,7 @@
             var href = $(this).attr('href');
             var title = $('.flashlight img').attr('title');
             $('body').append("<div class='flashlight_overlay'></div>");
-            $('.flashlight_overlay').append("<div class='flashlight_content'><img src='" + href + "'/><div class='flashlight_desc'><div class='flashlight_close'>close</div><div class='flashlight_title'>" + title + "</div></div></div>");
+            $('.flashlight_overlay').append("<div class='flashlight_content'><img class='flashlight_image' src='" + href + "'/><div class='flashlight_desc'><div class='flashlight_close'>close</div><div class='flashlight_title'>" + title + "</div></div></div>");
             $('.flashlight_overlay').fadeIn(200,function(){
                     $('.flashlight_overlay').show();       
                     $('.flashlight_content').show();
