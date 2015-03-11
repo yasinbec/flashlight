@@ -3,33 +3,24 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Flashlight</title>
-
 </head>
-
 <body>
-
-
 <h1>FlashLight</h1>
-
-<a href="http://placehold.it/350x150" id="flashlight" ><img src="http://placehold.it/350x150" width="300" title="Test Image" /></a>
-
+<a href="http://placehold.it/550x250" class="light"><img src="http://placehold.it/350x111" width="300" title="Test Image" /></a>
+<a href="http://placehold.it/550x350" class="light"><img src="http://placehold.it/350x112" width="300" title="Test Image" /></a>
+<a href="http://placehold.it/550x150" class="light"><img src="http://placehold.it/350x113" width="300" title="Test Image" /></a>
+<a href="http://placehold.it/550x150" class="light"><img src="http://placehold.it/350x113" width="300" title="Test Image" /></a>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
 <script src="flashlight.js"></script>
-
 <link rel="stylesheet" type="text/css" href="flashlight.css" />
 
 <script>
 $(document).ready(function(){
-
-	$('#flashlight').flashlight({
-
+	$('.light').flashlight({
 		bg: '#FFF', // I will add this option later
 		opacity: 0.6 // I will add this option later
-
 	});
-
 });
 </script>
 </body>
