@@ -2,7 +2,7 @@ flashlight
 ==========
 
 jquery lightbox
-Only 1.435 kb
+Only 1.434 kb
 
 Preview = http://jenaldesign.com/flashlight/
 
