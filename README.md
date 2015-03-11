@@ -4,6 +4,8 @@ flashlight
 jquery lightbox
 Only 1.435 kb
 
+Preview = http://jenaldesign.com/flashlight/
+
 Simpliest Jquery Lightbox Alternatif.
 ---
 
