@@ -8,7 +8,8 @@
 (function($) {
     $.fn.flashlight = function() {     
         $(this).addClass( "flashlight" );
-        $('.flashlight').click(function(event){
+        $('.flashlight').click(function(e){
+            e.preventDefault();
             var href = $(this).attr('href');
             var title = $(this).find("img").attr('title');
             $('body').append("<div class='flashlight_overlay'></div>");
